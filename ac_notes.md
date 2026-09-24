@@ -9,7 +9,7 @@
 5) Freeze this build: `mamba env export --no-builds > environment_freeze.yml`
 6) Create `.gitignore` file
 7) `git init`, `git add .`
-8) git commit -m "Initial commit: Set up environment and folder structure"
+8) `git commit -m "Initial commit: Set up environment and folder structure"`
 
 ### Organise Directory
 - `README.md`
