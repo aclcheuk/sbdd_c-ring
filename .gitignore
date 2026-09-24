@@ -1,0 +1,19 @@
+# Environments and Caches
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Large Data & Trajectory Files
+*.nc
+*.xtc
+*.trr
+*.dcd
+data/
+results/
+
+# Virtual Environments
+env/
+.env/
+venv/
+conda-env/
+.conda/

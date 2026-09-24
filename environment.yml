@@ -1,0 +1,22 @@
+name: sbdd-cring-project
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  # Chemoinformatics & Structure
+  - rdkit
+  - biopython
+  - biotite
+  # Data Science & Visualization
+  - jupyterlab
+  - pandas
+  - polars
+  - numpy
+  - matplotlib
+  - seaborn
+  - py3dmol
+  - pip
+  - pip:
+    - spyrmsd  # Root-mean-square deviation calculation for docking
